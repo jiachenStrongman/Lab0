@@ -4,6 +4,7 @@
 #opens the co2.html file and stores each line into an object called carbonLines
 carbonLines = []
 with open('Co2.html', 'r') as carbon:
+    #this should create the desired list of strings for the carbon files
     carbonLines = carbon.read().splitlines()
 
 tempLines = []
