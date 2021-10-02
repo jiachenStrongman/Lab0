@@ -9,3 +9,6 @@ with open('Co2.html', 'r') as carbon:
 tempLines = []
 with open('Temperature.html', 'r') as temp:
     tempLines = temp.read().splitlines()
+
+for x in range(0,9):
+    print(tempLines[x])
